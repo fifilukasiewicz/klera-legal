@@ -1,13 +1,13 @@
-# NeuraBoard — Privacy Policy
+# Klera AI Privacy Policy
 
-_Last updated: 2026-07-15._
+_Last updated: 2026-09-29._
 
-NeuraBoard ("we", "the app") is an AI study tool for handwriting math and physics on iPad. This
+Klera AI ("Klera", "we", "the app") is an AI study tool for handwriting math and physics on iPad. This
 policy explains what we collect, why, and your choices. We designed the app to collect as little as
 possible and to keep your learning data private to you.
 
 ## Who this is for
-NeuraBoard is intended for students **aged 13 and over**, teachers, and parents. It is **not**
+Klera is intended for students **aged 13 and over**, teachers, and parents. It is **not**
 directed to children under 13, and we do not knowingly collect personal information from children
 under 13. If you believe a child under 13 has provided us data, contact us and we will delete it.
 
@@ -24,7 +24,7 @@ under 13. If you believe a child under 13 has provided us data, contact us and w
   messages are processed to produce a response.
 - **Diagnostics** — crash and performance diagnostics via Apple's MetricKit, stored on your device.
 - **Anonymous usage analytics** — anonymous feature-usage events (for example "a hint was
-  requested") that help us improve NeuraBoard. These use a random installation identifier, are
+  requested") that help us improve Klera. These use a random installation identifier, are
   **never linked to your account, name, or email**, and never include your handwriting, problem
   content, or school. You can turn this off any time in Settings → *Share anonymous usage
   analytics*; deleting your data also resets the identifier and stops collection.
@@ -50,7 +50,7 @@ Data is transmitted over encrypted (HTTPS) connections.
 - **Delete** — Settings → Account → *Delete my learning data* permanently removes your learning
   profile from this device and our cloud. Signing out reverts the app to a local, anonymous state.
 - **Access / questions** — contact us (below). Depending on your location you may have additional
-  rights under the Hong Kong PDPO, GDPR, or other laws.
+  rights under your local data-protection law, such as the GDPR.
 
 ## Data security
 Access tokens are stored in the device Keychain. Your learning profile is protected by row-level
@@ -59,6 +59,23 @@ security so only your signed-in account can read or write it. Data in transit is
 ## Retention
 We keep your learning data while your account is active. When you delete it (above) it is removed
 from our cloud. Local device data is removed on delete or app uninstall.
+
+We also apply automatic limits so nothing is kept indefinitely by default:
+
+- **Detailed working records** — the per-problem behavioural detail (pen pressure, writing speed,
+  pauses and similar signals) is removed after **12 months** without activity. Your topic progress
+  is kept, so the tutor still knows you if you come back.
+- **Everything else** — a learning profile untouched for **24 months** is deleted in full.
+- **On the device** — the app keeps only the last 40 problem records and 7 days of daily activity;
+  older detail is discarded as you use it, not archived.
+
+## Early-access waitlist (website)
+If you sign up for early access on our website, we store what you enter in the form: your email,
+and optionally your name, role, university or school, device, what you study, and an Apple ID email
+for TestFlight, together with your consent and the date. We use it only to send you TestFlight
+invites and early-access updates, and to record the free year of Premium promised to testers. It is
+stored with **Supabase** and is not readable from the website. It is never sold or shared for
+marketing. To be removed, email filip@klera.tech and we will delete your entry.
 
 ## Children & schools
 Where the app is used through a school, the school may act as the data controller for student data;
@@ -70,4 +87,4 @@ We will update this policy as the app evolves and post the new version at this U
 date.
 
 ## Contact
-NeuraBoard — lukasiewiczfilip07@gmail.com
+Klera AI: filip@klera.tech or darius@klera.tech
